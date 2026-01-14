@@ -26,3 +26,18 @@
     grid-column: span 1;
     grid-row:  span 1;
 }
+
+@media screen and (max-width: 576px){
+    .gallary{
+        display: grid;
+        gap: 3px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banar-layout,
+    .normal-layout,
+    .wid-layout,
+    .small-layout{
+        grid-column: span 1;
+        /* grid-row:  span 1; */
+    }
+}
